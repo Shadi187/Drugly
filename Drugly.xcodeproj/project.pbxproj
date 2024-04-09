@@ -7,18 +7,80 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D08CDE52B6FD16A009D5E05 /* CardAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D08CDE42B6FD16A009D5E05 /* CardAttributes.swift */; };
+		9D1833712B65876600CB5CD2 /* DruglyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D1833702B65876600CB5CD2 /* DruglyViewModel.swift */; };
+		9D3109AF2B7C94AC00E0D74E /* NewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3109AE2B7C94AC00E0D74E /* NewCard.swift */; };
+		9D31D5FD2B618651003833DE /* Drug.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D31D5FC2B618651003833DE /* Drug.swift */; };
+		9D31D6002B618798003833DE /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D31D5FF2B618798003833DE /* PreviewProvider.swift */; };
+		9D31D6022B61AA1F003833DE /* BlankCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D31D6012B61AA1F003833DE /* BlankCardView.swift */; };
+		9D31D6042B61AF79003833DE /* BlankPatientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D31D6032B61AF79003833DE /* BlankPatientsView.swift */; };
+		9D31D6062B61B218003833DE /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D31D6052B61B218003833DE /* Patient.swift */; };
+		9D32B1E22B663A3900CD7A2E /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D32B1E12B663A3900CD7A2E /* Card.swift */; };
+		9D32B1E72B678EB300CD7A2E /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D32B1E62B678EB300CD7A2E /* OnboardingViewModel.swift */; };
+		9D32B1EA2B679F1400CD7A2E /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D32B1E92B679F1400CD7A2E /* CoreDataManager.swift */; };
+		9D32B1ED2B67A18700CD7A2E /* Drugs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D32B1EB2B67A18600CD7A2E /* Drugs.xcdatamodeld */; };
+		9D32B1EF2B67CCE400CD7A2E /* AddDrugViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D32B1EE2B67CCE400CD7A2E /* AddDrugViewModel.swift */; };
+		9D32B1F12B67CD7D00CD7A2E /* AddDrugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D32B1F02B67CD7D00CD7A2E /* AddDrugView.swift */; };
+		9D32B1F32B67E3D400CD7A2E /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D32B1F22B67E3D400CD7A2E /* LocalFileManager.swift */; };
+		9D35171C2B7DDCF000BF65D9 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D35171B2B7DDCF000BF65D9 /* CardViewModel.swift */; };
+		9D35171E2B7DF4E100BF65D9 /* PreviewCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D35171D2B7DF4E100BF65D9 /* PreviewCard.swift */; };
+		9D3B221D2B83E1170092F751 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B221C2B83E1170092F751 /* SwiftUIView.swift */; };
+		9D3B221F2B83E4390092F751 /* BackgroundRounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3B221E2B83E4390092F751 /* BackgroundRounded.swift */; };
+		9D3CDFA32B95B2BE001BB948 /* EachDrugView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D3CDFA22B95B2BE001BB948 /* EachDrugView.swift */; };
+		9D6916752B65195400C1F5B7 /* OnBoardingCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6916742B65195400C1F5B7 /* OnBoardingCard.swift */; };
+		9D6D72D42BC5929D00FA795B /* AddedSuccessfully.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D6D72D32BC5929D00FA795B /* AddedSuccessfully.swift */; };
+		9D7FADE92B6223FE005241AD /* OnBoardingScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FADE82B6223FE005241AD /* OnBoardingScreen.swift */; };
+		9D7FADEB2B622755005241AD /* CustomShapes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D7FADEA2B622755005241AD /* CustomShapes.swift */; };
+		9D9636A92B81F80B00752E06 /* NewCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9636A82B81F80B00752E06 /* NewCardViewModel.swift */; };
+		9D9636AB2B81FE2C00752E06 /* ImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D9636AA2B81FE2C00752E06 /* ImageService.swift */; };
+		9DDCD36A2B84EB71000790B7 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDCD3692B84EB71000790B7 /* SearchBar.swift */; };
 		9DE00E1D2B605698002F6062 /* DruglyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE00E1C2B605698002F6062 /* DruglyApp.swift */; };
 		9DE00E1F2B605698002F6062 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE00E1E2B605698002F6062 /* ContentView.swift */; };
 		9DE00E212B60569A002F6062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE00E202B60569A002F6062 /* Assets.xcassets */; };
 		9DE00E242B60569A002F6062 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DE00E232B60569A002F6062 /* Preview Assets.xcassets */; };
+		9DE00E2F2B60573A002F6062 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE00E2E2B60573A002F6062 /* CardView.swift */; };
+		9DE00E312B6059C8002F6062 /* PatientImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE00E302B6059C8002F6062 /* PatientImageView.swift */; };
+		9DE02B6A2B7772AC000816D4 /* Medic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE02B692B7772AC000816D4 /* Medic.swift */; };
+		9DF37BC12BAB339B00164D1C /* Example.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DF37BC02BAB339B00164D1C /* Example.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D08CDE42B6FD16A009D5E05 /* CardAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardAttributes.swift; sourceTree = "<group>"; };
+		9D1833702B65876600CB5CD2 /* DruglyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DruglyViewModel.swift; sourceTree = "<group>"; };
+		9D3109AE2B7C94AC00E0D74E /* NewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCard.swift; sourceTree = "<group>"; };
+		9D31D5FC2B618651003833DE /* Drug.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drug.swift; sourceTree = "<group>"; };
+		9D31D5FF2B618798003833DE /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
+		9D31D6012B61AA1F003833DE /* BlankCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankCardView.swift; sourceTree = "<group>"; };
+		9D31D6032B61AF79003833DE /* BlankPatientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlankPatientsView.swift; sourceTree = "<group>"; };
+		9D31D6052B61B218003833DE /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		9D32B1E12B663A3900CD7A2E /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		9D32B1E62B678EB300CD7A2E /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		9D32B1E92B679F1400CD7A2E /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		9D32B1EC2B67A18600CD7A2E /* Drugs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Drugs.xcdatamodel; sourceTree = "<group>"; };
+		9D32B1EE2B67CCE400CD7A2E /* AddDrugViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDrugViewModel.swift; sourceTree = "<group>"; };
+		9D32B1F02B67CD7D00CD7A2E /* AddDrugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDrugView.swift; sourceTree = "<group>"; };
+		9D32B1F22B67E3D400CD7A2E /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		9D35171B2B7DDCF000BF65D9 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		9D35171D2B7DF4E100BF65D9 /* PreviewCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewCard.swift; sourceTree = "<group>"; };
+		9D3B221C2B83E1170092F751 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		9D3B221E2B83E4390092F751 /* BackgroundRounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRounded.swift; sourceTree = "<group>"; };
+		9D3CDFA22B95B2BE001BB948 /* EachDrugView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EachDrugView.swift; sourceTree = "<group>"; };
+		9D6916742B65195400C1F5B7 /* OnBoardingCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingCard.swift; sourceTree = "<group>"; };
+		9D6D72D32BC5929D00FA795B /* AddedSuccessfully.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddedSuccessfully.swift; sourceTree = "<group>"; };
+		9D7FADE82B6223FE005241AD /* OnBoardingScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingScreen.swift; sourceTree = "<group>"; };
+		9D7FADEA2B622755005241AD /* CustomShapes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShapes.swift; sourceTree = "<group>"; };
+		9D9636A82B81F80B00752E06 /* NewCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCardViewModel.swift; sourceTree = "<group>"; };
+		9D9636AA2B81FE2C00752E06 /* ImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageService.swift; sourceTree = "<group>"; };
+		9DDCD3692B84EB71000790B7 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		9DE00E192B605698002F6062 /* Drugly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drugly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DE00E1C2B605698002F6062 /* DruglyApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DruglyApp.swift; sourceTree = "<group>"; };
 		9DE00E1E2B605698002F6062 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9DE00E202B60569A002F6062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DE00E232B60569A002F6062 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9DE00E2E2B60573A002F6062 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		9DE00E302B6059C8002F6062 /* PatientImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatientImageView.swift; sourceTree = "<group>"; };
+		9DE02B692B7772AC000816D4 /* Medic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medic.swift; sourceTree = "<group>"; };
+		9DF37BC02BAB339B00164D1C /* Example.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Example.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +94,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D31D5FE2B618789003833DE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				9D31D5FF2B618798003833DE /* PreviewProvider.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9D32B1E82B679F0400CD7A2E /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9D32B1E92B679F1400CD7A2E /* CoreDataManager.swift */,
+				9D32B1F22B67E3D400CD7A2E /* LocalFileManager.swift */,
+				9D9636AA2B81FE2C00752E06 /* ImageService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		9D7FADE72B6223E9005241AD /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				9D7FADE82B6223FE005241AD /* OnBoardingScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
 		9DE00E102B605698002F6062 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +139,13 @@
 		9DE00E1B2B605698002F6062 /* Drugly */ = {
 			isa = PBXGroup;
 			children = (
+				9D32B1E82B679F0400CD7A2E /* Services */,
+				9D7FADE72B6223E9005241AD /* Screens */,
+				9D31D5FE2B618789003833DE /* Extensions */,
+				9DE00E2D2B6056DF002F6062 /* Components */,
+				9DE00E2C2B6056BF002F6062 /* Views */,
+				9DE00E2B2B6056B6002F6062 /* ViewModel */,
+				9DE00E2A2B6056A8002F6062 /* Model */,
 				9DE00E1C2B605698002F6062 /* DruglyApp.swift */,
 				9DE00E1E2B605698002F6062 /* ContentView.swift */,
 				9DE00E202B60569A002F6062 /* Assets.xcassets */,
@@ -65,6 +160,60 @@
 				9DE00E232B60569A002F6062 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9DE00E2A2B6056A8002F6062 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9D31D5FC2B618651003833DE /* Drug.swift */,
+				9D31D6052B61B218003833DE /* Patient.swift */,
+				9D32B1EB2B67A18600CD7A2E /* Drugs.xcdatamodeld */,
+				9D08CDE42B6FD16A009D5E05 /* CardAttributes.swift */,
+				9DE02B692B7772AC000816D4 /* Medic.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9DE00E2B2B6056B6002F6062 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9D1833702B65876600CB5CD2 /* DruglyViewModel.swift */,
+				9D32B1E62B678EB300CD7A2E /* OnboardingViewModel.swift */,
+				9D32B1EE2B67CCE400CD7A2E /* AddDrugViewModel.swift */,
+				9D35171B2B7DDCF000BF65D9 /* CardViewModel.swift */,
+				9D9636A82B81F80B00752E06 /* NewCardViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		9DE00E2C2B6056BF002F6062 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9DE00E2E2B60573A002F6062 /* CardView.swift */,
+				9DE00E302B6059C8002F6062 /* PatientImageView.swift */,
+				9D31D6012B61AA1F003833DE /* BlankCardView.swift */,
+				9D31D6032B61AF79003833DE /* BlankPatientsView.swift */,
+				9D6916742B65195400C1F5B7 /* OnBoardingCard.swift */,
+				9D32B1F02B67CD7D00CD7A2E /* AddDrugView.swift */,
+				9D3CDFA22B95B2BE001BB948 /* EachDrugView.swift */,
+				9DF37BC02BAB339B00164D1C /* Example.swift */,
+				9D6D72D32BC5929D00FA795B /* AddedSuccessfully.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9DE00E2D2B6056DF002F6062 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				9D7FADEA2B622755005241AD /* CustomShapes.swift */,
+				9D32B1E12B663A3900CD7A2E /* Card.swift */,
+				9D3109AE2B7C94AC00E0D74E /* NewCard.swift */,
+				9D35171D2B7DF4E100BF65D9 /* PreviewCard.swift */,
+				9D3B221C2B83E1170092F751 /* SwiftUIView.swift */,
+				9D3B221E2B83E4390092F751 /* BackgroundRounded.swift */,
+				9DDCD3692B84EB71000790B7 /* SearchBar.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +286,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DE00E312B6059C8002F6062 /* PatientImageView.swift in Sources */,
+				9D31D6002B618798003833DE /* PreviewProvider.swift in Sources */,
+				9D6D72D42BC5929D00FA795B /* AddedSuccessfully.swift in Sources */,
+				9D7FADEB2B622755005241AD /* CustomShapes.swift in Sources */,
+				9D9636A92B81F80B00752E06 /* NewCardViewModel.swift in Sources */,
+				9D31D6062B61B218003833DE /* Patient.swift in Sources */,
+				9D3B221F2B83E4390092F751 /* BackgroundRounded.swift in Sources */,
+				9D3109AF2B7C94AC00E0D74E /* NewCard.swift in Sources */,
+				9D08CDE52B6FD16A009D5E05 /* CardAttributes.swift in Sources */,
+				9D6916752B65195400C1F5B7 /* OnBoardingCard.swift in Sources */,
+				9D31D6022B61AA1F003833DE /* BlankCardView.swift in Sources */,
+				9D7FADE92B6223FE005241AD /* OnBoardingScreen.swift in Sources */,
+				9D32B1EF2B67CCE400CD7A2E /* AddDrugViewModel.swift in Sources */,
+				9D9636AB2B81FE2C00752E06 /* ImageService.swift in Sources */,
+				9DE02B6A2B7772AC000816D4 /* Medic.swift in Sources */,
+				9D32B1ED2B67A18700CD7A2E /* Drugs.xcdatamodeld in Sources */,
 				9DE00E1F2B605698002F6062 /* ContentView.swift in Sources */,
+				9DE00E2F2B60573A002F6062 /* CardView.swift in Sources */,
+				9DDCD36A2B84EB71000790B7 /* SearchBar.swift in Sources */,
+				9D3CDFA32B95B2BE001BB948 /* EachDrugView.swift in Sources */,
+				9D32B1E22B663A3900CD7A2E /* Card.swift in Sources */,
+				9DF37BC12BAB339B00164D1C /* Example.swift in Sources */,
+				9D32B1F12B67CD7D00CD7A2E /* AddDrugView.swift in Sources */,
+				9D32B1E72B678EB300CD7A2E /* OnboardingViewModel.swift in Sources */,
+				9D1833712B65876600CB5CD2 /* DruglyViewModel.swift in Sources */,
+				9D35171C2B7DDCF000BF65D9 /* CardViewModel.swift in Sources */,
+				9D32B1F32B67E3D400CD7A2E /* LocalFileManager.swift in Sources */,
+				9D3B221D2B83E1170092F751 /* SwiftUIView.swift in Sources */,
+				9D31D5FD2B618651003833DE /* Drug.swift in Sources */,
+				9D35171E2B7DF4E100BF65D9 /* PreviewCard.swift in Sources */,
+				9D31D6042B61AF79003833DE /* BlankPatientsView.swift in Sources */,
+				9D32B1EA2B679F1400CD7A2E /* CoreDataManager.swift in Sources */,
 				9DE00E1D2B605698002F6062 /* DruglyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,13 +452,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Drugly/Preview Content\"";
+				DEVELOPMENT_TEAM = DD4FLB28J9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,13 +481,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Drugly/Preview Content\"";
+				DEVELOPMENT_TEAM = DD4FLB28J9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -342,6 +524,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9D32B1EB2B67A18600CD7A2E /* Drugs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9D32B1EC2B67A18600CD7A2E /* Drugs.xcdatamodel */,
+			);
+			currentVersion = 9D32B1EC2B67A18600CD7A2E /* Drugs.xcdatamodel */;
+			path = Drugs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9DE00E112B605698002F6062 /* Project object */;
 }

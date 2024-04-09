@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22225" systemVersion="23A344" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Medic" representedClassName="Medic" syncable="YES" codeGenerationType="class">
+        <attribute name="color" optional="YES" attributeType="Transformable"/>
+        <attribute name="ddescription" attributeType="String" defaultValueString="Description"/>
+        <attribute name="dose" attributeType="String" defaultValueString="Dose"/>
+        <attribute name="gen_name" attributeType="String" defaultValueString="GenericName"/>
+        <attribute name="id" optional="YES" attributeType="UUID" usesScalarValueType="NO"/>
+        <attribute name="tr_name" attributeType="String" defaultValueString="TradeName"/>
+        <attribute name="url" optional="YES" attributeType="String"/>
+    </entity>
+</model>
