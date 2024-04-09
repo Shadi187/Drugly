@@ -23,6 +23,9 @@ struct AddDrugView: View {
                 }
                 
             }
+            if vm.showSuccess {
+                AddedSuccessfully()
+            }
         }
     }
 }

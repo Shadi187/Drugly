@@ -42,6 +42,8 @@ class AddDrugViewModel:ObservableObject{
     @Published var convertedImage:UIImage?
     @Published var savedData:Data?
     
+    @Published var showSuccess:Bool = false
+    
     private var cancellableSet = Set<AnyCancellable>()
     init(){
         $genName
@@ -97,6 +99,10 @@ class AddDrugViewModel:ObservableObject{
 //        print("\(tempDrug.url)")
         tempDrug.color = UIColor(selectedColor)
         CoreDataManager.instance.addDrugs(drug: tempDrug)
+        withAnimation(Animation.smooth(duration:0.5)) {
+            showSuccess.toggle()
+        }
+        
         
         emptyInputs()
 //        tempDrug.id = UUID()
@@ -107,6 +113,11 @@ class AddDrugViewModel:ObservableObject{
         trName = ""
         Dose = ""
         Descrip = ""
+        DispatchQueue.main.asyncAfter(deadline: .now() +  0.6){
+            withAnimation(Animation.smooth()) {
+                self.showSuccess.toggle()
+            }
+        }
     }
     
     
